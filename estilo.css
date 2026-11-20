@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --fundo: #fafafa; --texto: #1c1c1e; --link: #0b57d0; }
+@media (prefers-color-scheme: dark) {
+  :root { --fundo: #1c1c1e; --texto: #e8e8ea; --link: #8ab4f8; }
+}
+body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+a { color: var(--link); }
+code { font-size: 0.95em; }
+h1 { line-height: 1.2; }
